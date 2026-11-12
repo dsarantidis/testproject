@@ -583,12 +583,12 @@
           "$value": {
             "colorSpace": "srgb",
             "components": [
-              0.44314,
-              0.44314,
-              0.47843
+              1,
+              0,
+              0
             ],
             "alpha": 1,
-            "hex": "#71717a"
+            "hex": "#ff0000"
           },
           "$type": "color"
         },
@@ -4743,7 +4743,7 @@
         "$type": "number"
       },
       "18": {
-        "$value": 18,
+        "$value": 20,
         "$type": "number"
       },
       "20": {
@@ -4867,6 +4867,13 @@
       "0": {
         "$value": 0,
         "$type": "number"
+      }
+    },
+    "test": {
+      "added": {
+        "$value": 7,
+        "$type": "number",
+        "$description": "Added on feature-parity-test only."
       }
     }
   },
@@ -10177,11 +10184,6 @@
           "$value": "{core.grids.24}",
           "$type": "number",
           "$description": "Standard outer margin for the layout grid at this breakpoint."
-        },
-        "gutters": {
-          "$value": "{core.grids.4}",
-          "$type": "number",
-          "$description": "Gutter (gap) width between grid columns."
         }
       },
       "stretch-grid": {
@@ -15208,7 +15210,7 @@
             "$description": "Background colour for card and container surfaces."
           },
           "text": {
-            "$value": "{core.core-colours.grey.900}",
+            "$value": "{core.core-colours.grey.800}",
             "$type": "color",
             "$description": "Default body text colour."
           },
